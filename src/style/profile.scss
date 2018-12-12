@@ -1,0 +1,99 @@
+
+
+.profile_wrapper {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 30px;
+}
+
+.profile_background {
+    display: flex;
+    justify-content: center;
+    background-color: ghostwhite;
+    height: 220px;
+    width: 150px;
+    padding: 15px;
+    
+    border-radius: 15px;
+    box-shadow: 0px 0px 36px -7px rgba(0,0,0,0.75);
+
+
+    
+    .profile {   
+        
+        
+            display: flex;
+            flex-direction: column;
+            
+            text-align: center;
+            
+            .favoritestar {
+                display: flex;
+                justify-content: end;
+                flex-direction: flex-end;
+       
+                margin-left: 89px;
+                
+                i {
+                    font-size: 20px;
+                    color: gray;
+                    border-width: 0.03px black;
+                }
+                i:hover {
+                    color: rgb(230, 230, 122);
+                }
+                i:visited {
+                    color: rgb(230, 230, 122);
+
+                }
+                
+            }
+            
+
+            .eaticon i {
+            font-size: 60px;
+            color: rgb(70, 67, 67);
+            margin-top: 10px;
+            }
+        
+            .eatery_name h2 {
+                color: rgb(58, 58, 58);  
+                font-size: 20px;
+                font-family: 'Source Sans Pro', sans-serif;                margin-top: 30px;
+            }
+
+            
+    
+            .descButton {
+            display: flex;
+            justify-content: center;
+            color: black;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-align: center;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 20px;
+                
+            } 
+        
+            
+        }
+      
+
+        
+        
+    
+} 
+
+.profile_background:hover {
+    box-shadow: 0px 0px 36px -2px rgba(0,0,0,0.75);
+}
+    // .add {
+//                 display: flex;
+//                 justify-content: center;
+//                 text-align: center;
+//                 padding: 5px;
+//                 border-radius: 5px;
+//                 margin-top: 20px;
+                    
+//             }  
